@@ -8,6 +8,7 @@ const App = () => {
   const dispatch  = useDispatch();
   return (
     <div>
+      <h1>Counter App</h1> 
        <button onClick={() => dispatch(incFn())}>Increment</button>
        <div>{counter}</div>
        <button onClick={() => dispatch(decFn())}>Decrement</button>
