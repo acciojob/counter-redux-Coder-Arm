@@ -9,9 +9,9 @@ const App = () => {
   return (
     <div>
       <h1>{counter}</h1>
-       <button onClick={() => dispatch(incFn())}>Increment</button>
+       <button onClick={() => dispatch(incFn())}>increment</button>
        
-       <button onClick={() => dispatch(decFn())}>Decrement</button>
+       <button onClick={() => dispatch(decFn())}>decrement</button>
     </div>
   )
 }
